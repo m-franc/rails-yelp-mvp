@@ -1,0 +1,7 @@
+<%= simple_form_for @restaurant do |r| %>
+  <%= r.input :name, label: 'Name of the restorant', error: 'name errors' %>
+  <%= r.input :address, label: 'address yeeee' %>
+  <%= r.input :phone_number, label: 'phone number', placeholder: '012Z3E456789' %>
+  <%= r.input :category, label: 'What is the catgory', :collection => %w[chinese italian japanese french belgian] %>
+  <%= r.button :submit, class: 'btn btn-primary' %>
+<% end %>

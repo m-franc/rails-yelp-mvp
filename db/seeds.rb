@@ -7,3 +7,9 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Restaurant.create!({ name: "Little Tokyo", address: "Conflans", phone_number: "1234567890", category: "japanese" })
+Restaurant.create!({ name: "Ristorante", address: "Conflans", phone_number: "1234567890", category: "italian" })
+Restaurant.create!({ name: "Baguette", address: "Conflans", phone_number: "1234567890", category: "french" })
+Restaurant.create!({ name: "Frites", address: "Conflans", phone_number: "1234567890", category: "belgian" })
+Restaurant.create!({ name: "Dragon de conflans", address: "Conflans", phone_number: "1234567890", category: "chinese" })
